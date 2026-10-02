@@ -1,0 +1,10 @@
+.gitignore
+node_modules/
+dist/
+build/
+.env
+*.log
+server/uploads/*
+!server/uploads/.gitkeep
+.DS_Store
+.env.example
