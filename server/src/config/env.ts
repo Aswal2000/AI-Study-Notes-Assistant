@@ -14,8 +14,8 @@ export const env = {
     port: parseInt(requireEnv("PORT", "4000"), 10),
     // node: requireEnv("NODE_ENV", "development"),
     databseUrl: requireEnv("DATABASE_URL"),
-    // apenAiApiKey: requireEnv("OPENAI_API_KEY"),
-    // embeddingModel: requireEnv("EMBEDDING_MODEL", "text-embedding-3-small"),
-    // chatModel:requireEnv("CHAT_MODEL", "gpt-4o-mini"),
+    geminiApiKey: requireEnv("GEMINI_API_KEY"),
+    embeddingModel: requireEnv("EMBEDDING_MODEL", "gemini-embedding-001"),
+    chatModel:requireEnv("CHAT_MODEL", "gemini-3.5-flash-lite"),
     // maxUploadSizeMb: parseInt(requireEnv("MAX_UPLOADSIZE_MB", "15"), 10)
 }
